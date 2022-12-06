@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 function Welcome(props) {
-   
     const [value, setValue] = useState();
     return <>
-        
            <br/> {props.name} {value ? value.target.value : ''}
         <input type={'text'} onChange={setValue} />
     </>;
@@ -28,7 +26,6 @@ root.render(<App />);
 //import './App.css';
 //import Remarkable from 'remarkable';
 //import RemarkableReactRenderer from 'remarkable-react';
-
 
 //class MarkdownEditor extends React.Component {
   //constructor(props) {
